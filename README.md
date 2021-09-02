@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/launch-countdown-using-react-and-sass-WCjae0WGg)
 - Live Site URL: [Site URL](https://intense-escarpment-52050.herokuapp.com/)
 
 ## My process
