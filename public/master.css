@@ -1,0 +1,67 @@
+/* VARIABLES */
+
+:root {
+    --darkBlue: hsl(235, 16%, 14%);
+    --blue: hsl(236, 21%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --grayBlue: hsl(237, 18%, 59%);
+    --red: hsl(345, 95%, 68%);
+}
+
+
+/* General CSS */
+
+body {
+    background: var(--darkBlue);
+    background-image: url("images/bg-stars.svg");
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 0;
+}
+
+footer {
+    color: var(--grayBlue);
+    background-image: url("images/pattern-hills.svg");
+    height: 197px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    color: var(--white);
+    letter-spacing: 0.5rem;
+}
+
+a {
+    color: var(--grayBlue);
+}
+
+a:hover {
+    color: var(--red);
+}
+
+
+/* Section Specific CSS */
+
+.title {
+    text-align: center;
+    margin: 7% auto;
+}
+
+.socials {
+    position: relative;
+    top: 75px;
+}
+
+.socialbtn {
+    margin: 0 15px;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 685px) {
+    h1 { font-size: 1.2rem; }
+    .title { margin: 30% 20px 20%; }
+}
